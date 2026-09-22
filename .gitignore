@@ -1,0 +1,19 @@
+# environment / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+cache/
+
+# per-player save (settings, records)
+save.json
+
+# training runs: keep only the models the game loads + the main run's log and curve
+runs/*
+!runs/main/
+runs/main/*
+!runs/main/best.pt
+!runs/main/ckpt_0100.pt
+!runs/main/ckpt_0300.pt
+!runs/main/log.csv
+!runs/main/reward_curve.png

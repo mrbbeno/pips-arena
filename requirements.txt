@@ -1,0 +1,7 @@
+# PyTorch with CUDA (RTX 50xx / Blackwell needs CUDA 12.8+ wheels):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch
+numpy
+pygame-ce      # drop-in pygame fork (import pygame); has Python 3.14 wheels
+matplotlib     # reward_curve.png only
+pytest
