@@ -143,11 +143,12 @@ def duel_view(w, enemies, t_cap=C.MAX_TICKS // 2):
 # ---------------------------------------------------------------- AI + difficulty
 DIFFICULTIES = {
     # key: label, checkpoint, sample vs argmax, reaction delay (frames), aim noise (deg).
-    "beginner":   dict(label="Kezdő",      ckpt="runs/main/ckpt_0100.pt", stochastic=True,  delay=15, noise=10),
-    "easy":       dict(label="Könnyű",     ckpt="runs/main/ckpt_0300.pt", stochastic=True,  delay=8,  noise=5),
-    "medium":     dict(label="Közepes",    ckpt="runs/main/best.pt",      stochastic=True,  delay=4,  noise=0),
-    "hard":       dict(label="Nehéz",      ckpt="runs/main/best.pt",      stochastic=True,  delay=2,  noise=0),
-    "impossible": dict(label="Lehetetlen", ckpt="runs/main/best.pt",      stochastic=False, delay=0,  noise=0),
+    # v2 = trained on the 1920x1080 maps with cover and pickups (warm-started from v1).
+    "beginner":   dict(label="Kezdő",      ckpt="runs/v2/ckpt_0025.pt", stochastic=True,  delay=15, noise=10),
+    "easy":       dict(label="Könnyű",     ckpt="runs/v2/ckpt_0100.pt", stochastic=True,  delay=8,  noise=5),
+    "medium":     dict(label="Közepes",    ckpt="runs/v2/best.pt",      stochastic=True,  delay=4,  noise=0),
+    "hard":       dict(label="Nehéz",      ckpt="runs/v2/best.pt",      stochastic=True,  delay=2,  noise=0),
+    "impossible": dict(label="Lehetetlen", ckpt="runs/v2/best.pt",      stochastic=False, delay=0,  noise=0),
 }
 _actor_cache = {}
 

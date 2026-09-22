@@ -17,3 +17,11 @@ runs/main/*
 !runs/main/ckpt_0300.pt
 !runs/main/log.csv
 !runs/main/reward_curve.png
+!runs/v2/
+runs/v2/*
+!runs/v2/best.pt
+!runs/v2/ckpt_0025.pt
+!runs/v2/ckpt_0100.pt
+!runs/v2/log.csv
+!runs/v2/reward_curve.png
+!runs/v2/sweep.log

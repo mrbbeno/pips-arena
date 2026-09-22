@@ -1,0 +1,19 @@
+ckpt_0100.pt   strafer: win  92.0%  draw   4.7%  loss   3.3%  t_win  18.8s  t_loss  25.6s  dodge 81.8% (3035 threats)  lateral 0.67
+               vs ref : win  79.0%  draw   8.0%  loss  13.0%  t_win  15.1s  t_loss  17.2s  dodge 92.9% (9758 threats)  lateral 0.80
+ckpt_0200.pt   strafer: win  92.0%  draw   4.0%  loss   4.0%  t_win  16.3s  t_loss  19.2s  dodge 74.7% (2704 threats)  lateral 0.66
+               vs ref : win  77.0%  draw   8.7%  loss  14.3%  t_win  12.4s  t_loss  15.1s  dodge 88.6% (7717 threats)  lateral 0.78
+ckpt_0300.pt   strafer: win  93.7%  draw   3.7%  loss   2.7%  t_win  13.5s  t_loss  14.9s  dodge 71.6% (2590 threats)  lateral 0.65
+               vs ref : win  87.7%  draw   3.3%  loss   9.0%  t_win  12.8s  t_loss  16.6s  dodge 89.8% (8112 threats)  lateral 0.78
+ckpt_0400.pt   strafer: win  96.0%  draw   3.3%  loss   0.7%  t_win  13.2s  t_loss  20.3s  dodge 74.7% (2213 threats)  lateral 0.66
+               vs ref : win  74.7%  draw  12.3%  loss  13.0%  t_win  17.2s  t_loss  20.4s  dodge 94.2% (14382 threats)  lateral 0.81
+ckpt_0500.pt   strafer: win  97.3%  draw   1.7%  loss   1.0%  t_win  13.1s  t_loss  15.1s  dodge 72.0% (2069 threats)  lateral 0.66
+               vs ref : win  67.7%  draw  19.0%  loss  13.3%  t_win  23.3s  t_loss  26.1s  dodge 96.0% (20847 threats)  lateral 0.83
+ckpt_0600.pt   strafer: win  94.0%  draw   5.3%  loss   0.7%  t_win  16.6s  t_loss  14.9s  dodge 75.5% (2497 threats)  lateral 0.67
+               vs ref : win  61.0%  draw  25.7%  loss  13.3%  t_win  24.2s  t_loss  25.4s  dodge 96.2% (19871 threats)  lateral 0.83
+ckpt_0700.pt   strafer: win  95.7%  draw   2.3%  loss   2.0%  t_win  15.5s  t_loss  10.2s  dodge 73.8% (2806 threats)  lateral 0.63
+               vs ref : win  76.3%  draw  14.0%  loss   9.7%  t_win  21.1s  t_loss  21.4s  dodge 94.9% (16120 threats)  lateral 0.81
+ckpt_0800.pt   strafer: win  95.0%  draw   4.0%  loss   1.0%  t_win  15.3s  t_loss  14.5s  dodge 76.5% (2648 threats)  lateral 0.65
+               vs ref : win  69.0%  draw  22.0%  loss   9.0%  t_win  21.8s  t_loss  23.9s  dodge 96.1% (20753 threats)  lateral 0.83
+final.pt       strafer: win  95.0%  draw   4.0%  loss   1.0%  t_win  15.3s  t_loss  14.5s  dodge 76.5% (2648 threats)  lateral 0.65
+               vs ref : win  69.0%  draw  22.0%  loss   9.0%  t_win  21.8s  t_loss  23.9s  dodge 96.1% (20753 threats)  lateral 0.83
+BEST: runs/v2\ckpt_0300.pt -> copied to runs/v2/best.pt

@@ -26,7 +26,8 @@ def plot_run(run_dir):
     fig, ax = plt.subplots(2, 2, figsize=(12, 8))
     ax[0, 0].plot(*smooth(series("pool_win")), label="win vs past selves (smoothed)", color="0.7")
     for key, label in (("rule_win", "win vs rule bot"), ("random_win", "win vs random"),
-                       ("strafer_win", "win vs strafer bot"), ("strafer_loss", "loss vs strafer bot")):
+                       ("strafer_win", "win vs strafer bot"), ("strafer_loss", "loss vs strafer bot"),
+                       ("v1_win", "win vs v1 Pip (head-to-head)"), ("v1_loss", "loss vs v1 Pip")):
         ax[0, 0].plot(*series(key), label=label)
     ax[0, 0].set_title("Win rates (deterministic eval / self-play pool)")
     ax[0, 0].set_ylim(-0.02, 1.02)
